@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    background-image: linear-gradient(to right, #538d36, #66ad42);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    margin: 1rem;
+    border-bottom: 1px solid black;
+    color: black;
+    cursor: pointer;
+    opacity: 100%;
+}
